@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minify – One-Click Page Summaries</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="width: 420px">
+    <div class="container" style="padding: 16px">
+      <div class="header flex">
+        <h2>AI Summary</h2>
+      </div>
+
+      <div class="form-group">
+        <select id="summary-type">
+          <option value="brief">Brief</option>
+          <option value="detailed">Detailed</option>
+          <option value="bullets">Bullet points</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <button id="summarize" class="center" style="flex: 1">
+          <i class="bi bi-lightning-charge"></i>
+          Summarize
+        </button>
+
+        <button id="copy-btn" class="secondary center">
+          <i class="bi bi-clipboard"></i>
+        </button>
+      </div>
+
+      <div id="result">
+        <p>Select a mode and summarize the current page.</p>
+      </div>
+    </div>
+
+    <script src="./js/popup.js"></script>
+  </body>
+</html>
