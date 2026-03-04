@@ -4,8 +4,7 @@ A powerful Chrome extension that leverages Google's Gemini AI to generate intell
 
 ## 📺 Demo
 
-> **Video Tutorial**: [Watch on YouTube](Iframe it in github readme
-https://youtu.be/kKke22c2QF8)
+> **Video Tutorial**: [Watch on YouTube](https://youtu.be/kKke22c2QF8)
 > See Minify in action! This video demonstrates installation, configuration, and usage of all summary modes.
 [![Watch the video](https://img.youtube.com/vi/kKke22c2QF8/maxresdefault.jpg)](https://youtu.be/kKke22c2QF8)
 
